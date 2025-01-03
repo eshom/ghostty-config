@@ -1,0 +1,138 @@
+### Theme ###
+theme = deep
+
+### Shell Integration ###
+shell-integration-features = cursor,no-sudo,title
+
+### Font ###
+font-family = "GeistMono Nerd Font Mono"
+font-style = ""
+font-size = 12
+
+### Cursor ###
+cursor-style-blink = false
+
+### Window ###
+window-theme = auto
+window-height = 10000
+window-width = 10000
+fullscreen = false
+window-decoration = false
+# Doesn't work yet
+# window-save-state = always
+
+### GTK ###
+gtk-adwaita = false
+gtk-titlebar = false
+gtk-tabs-location = bottom
+
+### Splits ###
+unfocused-split-opacity = 0.80
+
+
+
+###--------- ###
+### Keybinds ###
+
+# Unbind defaults
+keybind = super+ctrl+shift+up=unbind
+keybind = super+ctrl+shift+equal=unbind
+keybind = super+ctrl+shift+left=unbind
+keybind = super+ctrl+shift+down=unbind
+keybind = super+ctrl+shift+right=unbind
+
+keybind = super+ctrl+left_bracket=unbind
+keybind = super+ctrl+right_bracket=unbind
+
+keybind = ctrl+alt+shift+j=unbind
+keybind = ctrl+shift+comma=unbind
+
+keybind = ctrl+shift+o=unbind
+keybind = ctrl+shift+q=unbind
+keybind = ctrl+shift+w=unbind
+keybind = ctrl+shift+j=unbind
+keybind = ctrl+shift+j=unbind
+keybind = ctrl+shift+t=unbind
+keybind = ctrl+shift+tab=unbind
+keybind = ctrl+shift+e=unbind
+keybind = ctrl+shift+i=unbind
+
+keybind = ctrl+comma=unbind
+keybind = ctrl+page_up=unbind
+keybind = ctrl+tab=unbind
+
+# Trigger the trigger key
+keybind = ctrl+a>ctrl+a=text:\x01
+
+# Windows
+keybind = ctrl+a>n=new_window
+keybind = alt+f4=close_window
+
+# Scrolling
+keybind = ctrl+shift+page_down=jump_to_prompt:1
+keybind = ctrl+shift+page_up=jump_to_prompt:-1
+keybind = shift+page_up=scroll_page_fractional:-0.5
+keybind = shift+page_down=scroll_page_fractional:0.5
+keybind = shift+end=scroll_to_bottom
+keybind = shift+home=scroll_to_top
+
+# Configuration
+keybind = ctrl+a>shift+comma=reload_config
+keybind = ctrl+a>+comma=open_config
+
+# Text
+keybind = ctrl+plus=increase_font_size:1
+keybind = ctrl+minus=decrease_font_size:1
+
+# Selection
+keybind = shift+left=adjust_selection:left
+keybind = shift+right=adjust_selection:right
+keybind = shift+down=adjust_selection:down
+keybind = shift+up=adjust_selection:up
+
+# Splits
+keybind = alt+ctrl+shift+up=resize_split:up,10
+keybind = alt+ctrl+shift+left=resize_split:left,10
+keybind = alt+ctrl+shift+down=resize_split:down,10
+keybind = alt+ctrl+shift+right=resize_split:right,10
+keybind = alt+ctrl+shift+plus=equalize_splits
+
+keybind = ctrl+alt+left=goto_split:left
+keybind = ctrl+alt+down=goto_split:bottom
+keybind = ctrl+alt+right=goto_split:right
+keybind = ctrl+alt+up=goto_split:top
+keybind = ctrl+shift+enter=toggle_split_zoom
+
+
+keybind = ctrl+a>s=new_split:down
+keybind = ctrl+a>v=new_split:right
+
+# Tabs
+keybind = alt+one=goto_tab:1
+keybind = alt+two=goto_tab:2
+keybind = alt+three=goto_tab:3
+keybind = alt+four=goto_tab:4
+keybind = alt+six=goto_tab:5
+keybind = alt+six=goto_tab:6
+keybind = alt+seven=goto_tab:7
+keybind = alt+eight=goto_tab:8
+keybind = alt+nine=goto_tab:9
+
+keybind = ctrl+a>t=new_tab
+
+keybind = ctrl+shift+left=previous_tab
+keybind = ctrl+shift+right=next_tab
+keybind = ctrl+zero=reset_font_size
+keybind = ctrl+enter=toggle_fullscreen
+keybind = ctrl+shift+tab=previous_tab
+
+# General navigation
+keybind = ctrl+a>q=close_surface
+keybind = ctrl+a>i=inspector:toggle
+keybind = ctrl+a>ctrl+l=clear_screen
+
+# To Files
+keybind = ctrl+a>f>h=write_scrollback_file:open
+keybind = ctrl+a>f>s=write_screen_file:open
+keybind = ctrl+a>f>v=write_selection_file:open
+
