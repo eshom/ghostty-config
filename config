@@ -13,18 +13,15 @@ font-size = 12
 cursor-style-blink = false
 
 ### Window ###
-window-theme = auto
+window-theme = system
 window-height = 10000
 window-width = 10000
 fullscreen = false
-window-decoration = false
-# Doesn't work yet
-# window-save-state = always
+window-decoration = auto
 
-### GTK ###
-gtk-adwaita = false
-gtk-titlebar = false
+### GTK / Adwaita ###
 gtk-tabs-location = bottom
+adw-toolbar-style = flat
 
 ### Splits ###
 unfocused-split-opacity = 0.80
@@ -120,11 +117,14 @@ keybind = alt+eight=goto_tab:8
 keybind = alt+nine=goto_tab:9
 
 keybind = ctrl+a>t=new_tab
+keybind = ctrl+a>tab=toggle_tab_overview
 
 keybind = ctrl+shift+left=previous_tab
 keybind = ctrl+shift+right=next_tab
 keybind = ctrl+enter=toggle_fullscreen
 keybind = ctrl+shift+tab=previous_tab
+keybind = ctrl+shift+alt+right=move_tab:1
+keybind = ctrl+shift+alt+left=move_tab:-1
 
 # General navigation
 keybind = ctrl+a>q=close_surface
