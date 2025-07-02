@@ -1,3 +1,6 @@
+### Kernel Issue Slowdown WA ###
+async-backend = epoll
+
 ### Theme ###
 theme = deep
 
@@ -5,7 +8,7 @@ theme = deep
 shell-integration-features = cursor,no-sudo,title
 
 ### Font ###
-font-family = "JetBrainsMono Nerd Font Mono"
+font-family = "MapleMono"
 font-style = ""
 font-size = 12
 
