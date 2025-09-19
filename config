@@ -1,5 +1,5 @@
 ### Theme ###
-theme = deep
+theme = Deep
 
 ### Shell Integration ###
 shell-integration-features = cursor,no-sudo,title
@@ -75,7 +75,7 @@ keybind = shift+home=scroll_to_top
 
 # Configuration
 keybind = ctrl+a>shift+comma=reload_config
-keybind = ctrl+a>+comma=open_config
+keybind = ctrl+a>comma=open_config
 
 # Text
 keybind = ctrl+plus=increase_font_size:1
