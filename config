@@ -1,5 +1,5 @@
 ### Theme ###
-theme = Deep
+theme = Carbonfox
 
 ### Shell Integration ###
 shell-integration-features = cursor,no-sudo,title,ssh-env
